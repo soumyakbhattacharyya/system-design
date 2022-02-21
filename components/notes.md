@@ -28,3 +28,6 @@ System Design Components - Notes
                1. Client can find a leader being non - responsive and thus make new request. 
                2. The leader coming back will get two requests to process.
                3. To avoid duplicate processing, idempotency needs to be built in
+
+Reference - https://martinfowler.com/articles/patterns-of-distributed-systems/consistent-core.html
+
